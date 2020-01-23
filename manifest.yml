@@ -1,0 +1,7 @@
+---
+applications:
+- name: get-creds
+  memory: 128M
+  disk_quota: 1G
+  buildpack: python_buildpack
+  command: python get-creds.py

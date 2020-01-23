@@ -1,0 +1,17 @@
+<html>
+<head>
+   <title>Index Page</title>
+</head>
+<body>
+   <div class="container">
+       <table class="table">
+           {% for cred in creds %}
+           <tr>
+               <td>{{ cred }}</td>
+               <td>{{ creds[cred] }}</td>
+           </tr>
+           {% endfor %}
+       </table>
+   </div>
+</body>
+</html>
